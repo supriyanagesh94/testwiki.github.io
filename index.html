@@ -14,6 +14,20 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+  <style>
+        /* Style for the container div */
+        .image-container {
+            display: flex; /* Use flexbox to create a row */
+        }
+
+        /* Style for individual images */
+        .image-container img {
+            max-width: 100%; /* Ensure images don't exceed container width */
+            height: auto; /* Maintain aspect ratio */
+            margin-right: 10px; /* Add spacing between images (adjust as needed) */
+        }
+  </style>
+
 </head>
 <body>
 
@@ -53,38 +67,12 @@
                 
             </div> 
 
-	   <!--
-            <div class="col-md-5 ">
-		<!-- Main Image -->
-                <img class="img-responsive" src="images/pic1.jpg" width="310" height="auto" alt=""><br>
-                <div style="font-family: 'Oswald', sans-serif; font-size: 16px;"><b>Where we live:</b></div><br>
-                In Eucledian space, recently in the world of embeddings. Also, in SJC18. 
-	    </div> -->
-	   
-	    <!--
-	    <div class="col-md-5 ">
-		<!-- Main Image -->
-                <img class="img-responsive" src="images/pic2.jpg" width="310" height="auto" alt=""><br>
-                <div style="font-family: 'Oswald', sans-serif; font-size: 16px;"><b>What we respect:</b></div><br>
-                People's privacy, viewed through the lens of differential privacy. 
-	    </div> -->
-	    
-	    <!--
-	    <div class="col-md-5 ">
-		<!-- Main Image -->
-                <img class="img-responsive" src="images/pic3.jpg" width="310" height="auto" alt=""><br>
-                <div style="font-family: 'Oswald', sans-serif; font-size: 16px;"><b>How we earn trust:</b></div><br>
-                Through high accuracy, explainable ML and fact checking. 
-	    </div> -->
-
-	    <!--
-	    <div class="col-md-5 ">
-		<!-- Main Image -->
-                <img class="img-responsive" src="images/pic4.jpg" width="310" height="auto" alt=""><br>
-                <div style="font-family: 'Oswald', sans-serif; font-size: 16px;"><b>How we think:</b></div><br>
-                Via the rigor of ML, randomized and streaming algorithms. 
-	    </div> -->    
-	    
+	    <div class="image-container">
+       	    <img src="images/img1.jpg" alt="Image 1">
+            <img src="images/img2.jpg" alt="Image 2">
+            <img src="images/img3.jpg" alt="Image 3">
+            <img src="images/img4.jpg" alt="Image 4">
+            </div>
 	    
 
 
