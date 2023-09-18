@@ -14,20 +14,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
-  <style>
-        /* Style for the container div */
-        .image-container {
-            display: flex; /* Use flexbox to create a row */
-        }
-
-        /* Style for individual images */
-        .image-container img {
-            max-width: 100%; /* Ensure images don't exceed container width */
-            height: auto; /* Maintain aspect ratio */
-            margin-right: 10px; /* Add spacing between images (adjust as needed) */
-        }
-  </style>
-
+  
 </head>
 <body>
 
@@ -54,7 +41,7 @@
         <div class="row">
 
             <!-- Entries Column -->
-            <div class="col-md-7" style="height: 60vh;">
+            <div class="col-md-7" style="height: 150vh;">
                 
                 <!-- About us -->
 		
@@ -67,11 +54,32 @@
                 
             </div> 
 		
-	    <div class="image-container">
-       	    <img src="images/pic1.jpg" alt="Image 1">
-            <img src="images/pic2.jpg" alt="Image 2">
-            <img src="images/pic3.jpg" alt="Image 3">
-            <img src="images/pic4.jpg" alt="Image 4">
+	    <div class="col-md-5 ">
+		<!-- Main Image -->
+                <img class="img-responsive" src="images/pic1.jpg" width="310" height="auto" alt=""><br>
+                <p><b>Where we live: </b> In Euclidean space, recently in the world of embeddings, and also SJC18. 
+                </p>
+            </div>
+
+	    <div class="col-md-5 ">
+		<!-- Main Image -->
+                <img class="img-responsive" src="images/pic2.jpg" width="310" height="auto" alt=""><br>
+                <p><b>What We Respect: </b> People's privacy, viewed through the lens of differential privacy. 
+                </p>
+            </div>
+
+	    <div class="col-md-5 ">
+		<!-- Main Image -->
+                <img class="img-responsive" src="images/pic3.jpg" width="310" height="auto" alt=""><br>
+                <p><b>How we earn trust: </b> Through high accuracy, explainable ML and fact checking. 
+                </p>
+            </div>
+
+	    <div class="col-md-5 ">
+		<!-- Main Image -->
+                <img class="img-responsive" src="images/pic4.jpg" width="310" height="auto" alt=""><br>
+                <p><b>How we think: </b> Via the rigor of ML, randomized and streaming algorithms. 
+                </p>
             </div>
 	    
 
